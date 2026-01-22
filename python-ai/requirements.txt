@@ -1,0 +1,5 @@
+fastapi==0.115.6
+pydantic==2.10.6
+uvicorn==0.32.1
+textblob==0.18.0.post0
+vaderSentiment==3.3.2

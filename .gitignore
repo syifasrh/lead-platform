@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Build outputs
+**/dist
+**/.next
+**/out
+**/build
+
+# Environment variables (IMPORTANT: never commit secrets!)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv/
+*.egg-info
+
+# Docker
+*.tar
+
+# Test & Coverage
+coverage/
+.nyc_output
+*.lcov
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Prisma
+**/prisma/migrations/**/migration.lock
+
+# Misc
+.cache
+temp/
+tmp/
